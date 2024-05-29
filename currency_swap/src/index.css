@@ -1,0 +1,23 @@
+.app-bg {
+  background-color: #616161;
+  background-image: 
+    linear-gradient(135deg, rgba(243, 156, 18, 0.3) 0%, rgba(243, 156, 18, 0) 50%),
+    linear-gradient(315deg, rgba(236, 240, 241, 0.1) 0%, rgba(236, 240, 241, 0) 50%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+
+
+
+
+.container {
+  color: #EDEDED; /* Soft white for text */
+  border-radius: 8px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}

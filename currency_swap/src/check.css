@@ -1,0 +1,12 @@
+.app-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none; /* Make sure this overlay doesn't block interaction */
+    z-index: 1; /* Place it above the background but below the content */
+    backdrop-filter: blur(10px);
+  }

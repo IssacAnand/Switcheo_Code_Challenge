@@ -1,0 +1,76 @@
+
+/* Ensuring the input and button are seamlessly integrated */
+.input-group {
+  border-right: none; /* Removes the border between the input and the button */
+}
+
+.input-group .btn {
+  border-left: none; /* Removes the border between the button and the input */
+}
+
+/* Rounded corners for the left side of input and right side of button */
+.rounded-left {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.rounded-right {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* Adjust the button style to match the input field */
+.btn-outline-secondary {
+  background-color: #fff; /* Match the input field's background color */
+  color: #333; /* Match your design's color scheme */
+  border-color: #ccc; /* Light grey border, adjust as needed */
+}
+
+.set-outer-color{
+    background: #333;
+    padding: 2%;
+    opacity: 0.85;
+    width: 30%; 
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+}
+.form-control {
+    background-color: #e6e0f8;
+    color: #333;
+    padding: 16px 20px;
+    border: 1px solid #ccc; 
+}
+
+.form-control:focus {
+  background-color: #c2bcd4; 
+  border-color: #888; 
+  box-shadow: inset 0 1px 3px rgba(255,255,255,0.3), 0 0 8px rgba(109, 91, 152, 0.6);
+}
+
+.btn-select-token {
+  background: linear-gradient(145deg, #801858, #2C1A45);
+  border: none;
+  border-radius: 5px; 
+  padding: 8px 12px; 
+  color: #fff; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  
+}
+
+.btn-select-token:hover {
+  background: linear-gradient(145deg, #6a144e, #251830); 
+}
+
+.form-label {
+  font-size: 1.2rem; 
+  color: #ccc; 
+  margin-bottom: 5px; 
+  display: block; 
+}
+
+.token-popup{
+  background:linear-gradient(145deg, #333333 , #1f1628); 
+}
+
+
